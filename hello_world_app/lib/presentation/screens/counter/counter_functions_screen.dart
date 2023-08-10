@@ -78,7 +78,7 @@ class _CounterFunctionsScreenState extends State<CounterFunctionsScreen> {
   }
 }
 
-// Se creo una calse Custombutton para no estar repitiendo la impolementacion del
+// Se creo una calse Custom button para no estar repitiendo la implementacion del
 //boton en la pantalla
 class CustomButton extends StatelessWidget {
   final IconData icon;
