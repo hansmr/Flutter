@@ -14,3 +14,11 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+
+NOTES
+
+- Todo lo que esta en el folder de dominio debe estaren codigo puro de dart
+- En el folderde dominio se debe agregar las funciones atomicas que hacen que la app funciones, pero 
+estas no se representan visualemnte en la app
+

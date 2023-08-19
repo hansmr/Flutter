@@ -8,12 +8,13 @@ class HerMessageBubble extends StatelessWidget {
     final colors = Theme.of(context).colorScheme;
 
     return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
+      crossAxisAlignment: CrossAxisAlignment.start, // Alineacion a la izquierda
       children: [
         Container(
           decoration: BoxDecoration(
+            // Decora los textos (fondo)
             color: colors.secondary,
-            borderRadius: BorderRadius.circular(20),
+            borderRadius: BorderRadius.circular(200),
           ),
           child: const Padding(
             padding: EdgeInsets.symmetric(
@@ -51,6 +52,7 @@ class _ImageBubble extends StatelessWidget {
         height: 150,
         fit: BoxFit.cover,
         loadingBuilder: (context, child, loadingProgress) {
+          // Si proceso de carga ha finalizado entonces muestre imagen
           if (loadingProgress == null) return child;
           return Container(
             width: size.width * 0.7,
